@@ -1,0 +1,8 @@
+file pertama upload ke github menggunakan gitbash
+cloning repo ke pc
+caranya sebagai berikut:
+1. git clone http://blablabla
+2. membuat file baru
+3. git add nama_file
+4. git commit -m "komentar"
+5. git pus -u origin master atau main
