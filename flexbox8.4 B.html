@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #ff9999;
+        height: 610px;
+        width: 1250px;
+        margin: 0em;
+      }
+      header {
+        background-color: #99ffcc;
+        margin: 1em;
+        padding: 2em;
+        width: 1218px;
+        height: 80px;
+      }
+      #main {
+        display: flex;
+      }
+      #main > aside {
+        background-color: cadetblue;
+        width: 200px;
+        height: 450px;
+        margin: 1em;
+        padding: 2em;
+      }
+      #main > article {
+        background-color: #ff6699;
+        display: flex;
+        justify-content: space-around;
+        width: 1000px;
+        height: 450px;
+        margin: 1em;
+        padding: 2em;
+      }
+
+      footer {
+        background-color: #99ffcc;
+        margin: 1em;
+        padding: 2em;
+        width: 1218px;
+        height: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Header</header>
+    <div id="main">
+      <aside>Aside</aside>
+      <article>
+        <p>Article</p>
+        <div><img src="gambar1.jpg" alt="gambar1" width="150px" /></div>
+        <div><img src="gambar2.jpg" alt="gambar2" width="150px" /></div>
+        <div><img src="gambar3.jpg" alt="gambar3" width="150px" /></div>
+      </article>
+    </div>
+    <footer>Footer</footer>
+  </body>
+</html>
